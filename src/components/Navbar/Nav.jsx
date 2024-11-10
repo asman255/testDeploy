@@ -5,7 +5,7 @@ const Nav = ({ logo, back, search, title, cart }) => {
     const iconSize = '2.3rem'
     return (
 
-        <nav className="nav flex justify-between items-center h-[60px] p-3 space-x-6">
+        <nav className="nav flex justify-between items-center h-[60px] p-3 space-x-6 bg-white">
             {back && <button className="nav-back">Back</button>}
             {logo && <div className="nav-logo"><img src="/src/assets/img/logo-genaid.png" alt="" className='max-h-10' /></div>}
             <div className="flex-grow flex justify-center">

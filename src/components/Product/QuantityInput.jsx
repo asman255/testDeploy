@@ -7,9 +7,9 @@ function QuantityInput() {
   const decreaseQuantity = () => setQuantity(prevQuantity => Math.max(1, prevQuantity - 1));
 
   return (
-    <div className="flex items-center space-x-2">
+    <div className="flex items-center ">
       <button 
-        className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-l hover:bg-gray-400" 
+        className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-l hover:bg-gray-400 border border-gray-300" 
         onClick={decreaseQuantity}
       >
         -
@@ -21,7 +21,7 @@ function QuantityInput() {
         className="w-12 text-center border border-gray-300 py-2"
       />
       <button 
-        className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-r hover:bg-gray-400" 
+        className="bg-gray-300 text-gray-700 font-semibold py-2 px-4 rounded-r hover:bg-gray-400 border border-gray-300" 
         onClick={increaseQuantity}
       >
         +

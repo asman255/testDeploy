@@ -12,7 +12,7 @@ const NavMobile = () => {
     return (
         <div>
 
-            <div className='bg-white min-h-16 border-2 flex justify-around fixed bottom-0 w-full p-3 shadow-[0px_-3px_12px_-3px_rgba(0,0,0,0.71)]  lg:hidden'  >
+            <div className='bg-white min-h-16 border-2 flex justify-around fixed bottom-0 w-full p-3 shadow-[0px_-3px_12px_-3px_rgba(0,0,0,0.71)] lg:hidden'  >
                 <div className='place-items-center text-ga-primary'><FaHome size={iconSize} />หน้าหลัก</div>
                 <div className='place-items-center'><BiSolidCategory size={iconSize}  />ประเภท</div>
                 <div className='place-items-center'><IoChatbubbleEllipses size={iconSize} /> ติดต่อเภสัช</div>
