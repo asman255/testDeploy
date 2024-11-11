@@ -7,22 +7,27 @@ import Nav from './components/Navbar/Nav';
 import CardDetail from './components/Product/CardDetail';
 import CardDesc from './components/Product/CardDesc';
 import Category from './page/Category'
+import CardCart from './components/Product/CardCart';
 
 function App() {
 
 
   return (
     <>
-      <Nav back title="GenAID" cart/>
+      <div className='bg-black'>
+        <Nav back title="GenAID" cart />
 
-      {/* <Category /> */}
+        {/* <Category /> */}
+
+        <CardCart />
+
+        {/* <CardDetail />
+      <CardDesc /> */}
+
+        <NavMobile checkout />
 
 
-
-      <NavMobile checkout />
-
-
-
+      </div>
     </>
   )
 }
