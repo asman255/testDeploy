@@ -6,41 +6,16 @@ import NavMobile from './components/Navbar/NavMobile';
 import Nav from './components/Navbar/Nav';
 import CardDetail from './components/Product/CardDetail';
 import CardDesc from './components/Product/CardDesc';
+import Category from './page/Category'
+
 function App() {
 
 
   return (
     <>
-      {/* <Nav logo back search title="Test" cart /> */}
-      {/* <Nav logo search />
-      <Nav back title="หมวดหมู่ทั้งหมด" />
-      <Nav back search cart /> */}
-
-      {/* <Nav back title="ประวัติสั่งซื้อ" /> */}
-      {/* <Nav back title="หมวดหมู่ทั้งหมด" /> */}
-
-
-
-      {/* <Nav back search cart />  */}
-
-      <div className='bg-ga-bg'>
-        {/* <h1 className="text-3xl font-bold underline text-ga-primary">
-          Hello world!YYYYYYYY
-        </h1> */}
-        <Nav back cart />
-        <CardDetail />
-        <CardDesc />
-
-        <NavMobile />
-
-
-
-
-
+      <div>
+        <Category />
       </div>
-
-
-
 
     </>
   )
