@@ -4,6 +4,7 @@ import React from 'react'
 
 const Category = () => {
   return (
+    
     <div className="flex flex-wrap pt-2 ">
     <CardCategry/>
     <CardCategry/>
