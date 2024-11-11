@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Nav back />
+      <Nav back title="GenAID" cart/>
 
       {/* <Category /> */}
 
