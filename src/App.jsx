@@ -16,11 +16,7 @@ function App() {
     <Nav back title={"หมวดหมู่ทั้งหมด"} />
       <div>
         <Category />
-        <Category />
-        <Category />
-        <Category />
-
-        <Category />
+        
 
       </div>
 

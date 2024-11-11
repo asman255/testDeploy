@@ -7,13 +7,8 @@ const Category = () => {
     
     <div className="flex flex-wrap  ">
     <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
-    <CardCategry/>
+   
+ 
     </div>
   )
 }
