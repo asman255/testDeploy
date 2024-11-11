@@ -23,7 +23,7 @@ function App() {
 
       {/* <Nav back search cart />  */}
 
-      <div className='bg-gray-300'>
+      <div className='bg-ga-bg'>
         {/* <h1 className="text-3xl font-bold underline text-ga-primary">
           Hello world!YYYYYYYY
         </h1> */}

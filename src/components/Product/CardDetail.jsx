@@ -13,7 +13,7 @@ const CardDetail = () => {
                 <div className='flex justify-between'>
                     <div>
                         <div id="productId">รหัสสินค้า: A0001</div>
-                        <div id="productRating" className='flex'><FaStar /><FaStar /><FaStar /><FaStar /></div>
+                        <div id="productRating" className='flex'><FaStar color='gold' /><FaStar color='gold' /><FaStar color='gold' /><FaStar color='gold' /></div>
                     </div>
                     <div className='justify-items-center space-y-3'>
                         <div id="productAmount"><QuantityInput /></div>
