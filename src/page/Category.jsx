@@ -5,7 +5,7 @@ import React from 'react'
 const Category = () => {
   return (
     
-    <div className="flex flex-wrap  ">
+    <div className="flex flex-wrap justify-center  ">
     <CardCategry/>
    
  
