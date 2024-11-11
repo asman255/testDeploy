@@ -13,17 +13,13 @@ function App() {
 
   return (
     <>
-    <Nav back title={"หมวดหมู่ทั้งหมด"} />
+      <Nav back title={"หมวดหมู่ทั้งหมด"} />
       <div>
         <Category />
-        <Category />
-        <Category />
-        <Category />
 
-        <Category />
 
       </div>
-
+      <NavMobile checkout/>
     </>
   )
 }
