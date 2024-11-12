@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Category from './page/Category.jsx'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import Category from "./page/Category.jsx";
 
 function App() {
-
-
   return (
-
     <>
- <Category/>
+      <Category />
     </>
-
-  )
+  );
 }
 
-export default App
+export default App;
