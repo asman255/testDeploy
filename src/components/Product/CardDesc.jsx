@@ -3,7 +3,7 @@ import Tag from '../Tag/Tag'
 
 const CardDesc = () => {
   return (
-    <div className='bg-white my-8 min-h-96 p-4'>
+    <div className='bg-white my-8 min-h-96 p-4 lg:mx-10'>
       <p>ยาธาตุน้ำขาวตรากระต่ายบิน</p>
       <p>หมวดหมู่: ยาระบบทางเดินอาหาร</p>
       <p>บรรจุภัณฑ์: ขวด</p>

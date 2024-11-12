@@ -15,7 +15,7 @@ const ProductDetail = () => {
                 <NavMobile product />
                 <div className='mx-4'>
                     <span>สินค้าแนะนำ</span>
-                    <div className='flex items-center overflow-x-auto snap-x snap-mandatory -mx-4'>
+                    <div className='flex items-center overflow-x-auto snap-x snap-mandatory -mx-4 space-x-7'>
                         <CardProduct />
                         <CardProduct />
                         <CardProduct />
