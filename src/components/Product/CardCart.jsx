@@ -3,7 +3,7 @@ import { RiDeleteBin6Fill } from "react-icons/ri";
 import QuantityInput from './QuantityInput'
 const CardCart = () => {
     return (
-        <div className='flex justify-evenly bg-white p-2 h-44  items-center max-w-96 mx-auto rounded-xl my-auto'>
+        <div className='flex justify-evenly bg-white p-2 h-44  items-center max-w-96 mx-auto rounded-xl my-6'>
             <div className='flex gap-2 h-full w-[40%]'> {/* Changed to horizontal layout with gap */}
                 <div className='flex items-center'> {/* Checkbox container */}
                     <input type="checkbox" name="check" id="check" className="m-auto w-4 h-4" /> {/* Added margin top */}

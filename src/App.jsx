@@ -14,12 +14,29 @@ function App() {
 
   return (
     <>
-      <div className='bg-black'>
+      <div className='bg-ga-bg h-96 '>
         <Nav back title="GenAID" cart />
 
         {/* <Category /> */}
 
         <CardCart />
+        <CardCart />
+        <CardCart />
+        <CardCart />
+        <CardCart />
+
+
+        <CardCart />
+        <CardCart />
+        <CardCart />
+        <CardCart />
+        <CardCart />
+        <CardCart />
+
+        <CardCart />
+        <CardCart />
+        <CardCart />
+        
 
         {/* <CardDetail />
       <CardDesc /> */}
