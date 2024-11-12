@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const CardProduct = () => {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden w-72 mx-auto flex flex-col">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden w-72 mx-auto flex flex-col flex-shrink-0 snap-start">
       <img
         src="https://cx.lnwfile.com/_/cx/_raw/xo/m0/lg.jpg"
         alt="TYLENOL (ไทลินอล)"

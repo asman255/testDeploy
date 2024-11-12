@@ -3,19 +3,32 @@ import Navbar from '../components/Navbar/Nav'
 import NavMobile from '../components/Navbar/NavMobile'
 import CardDetail from '../components/Product/CardDetail'
 import CardDesc from '../components/Product/CardDesc'
-import {CardProduct} from '../components/Product/CardProduct'
+import CardProduct from '../components/Product/CardProduct'
 const ProductDetail = () => {
     return (
         <>
 
             <Navbar back cart />
-            <div className='mt-10 lg:mt-40'>
+            <div className='my-16 lg:my-40'>
                 <CardDetail />
                 <CardDesc />
                 <NavMobile product />
-                <div>
+                <div className='mx-4'>
                     <span>สินค้าแนะนำ</span>
-                    <CardProduct />
+                    <div className='flex items-center overflow-x-auto snap-x snap-mandatory -mx-4'>
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+                        <CardProduct />
+
+                    </div>
                 </div>
             </div>
 
