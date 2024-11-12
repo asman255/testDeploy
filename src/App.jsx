@@ -7,6 +7,7 @@ import Nav from './components/Navbar/Nav';
 import CardDetail from './components/Product/CardDetail';
 import CardDesc from './components/Product/CardDesc';
 import Category from './page/Category'
+import CardProduct from './components/Product/CardProduct';
 
 function App() {
 
@@ -25,8 +26,6 @@ function App() {
         <h1 className="text-3xl font-extrabold mb-4">All Category หมวดหมู่ทั้งหมด 0123456789 (Extra Bold)</h1>
         <h1 className="text-3xl font-black mb-4">All Category หมวดหมู่ทั้งหมด 0123456789 (Black)</h1>
       </div>
-
-
     </>
   )
 }
