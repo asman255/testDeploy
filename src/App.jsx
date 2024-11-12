@@ -7,14 +7,14 @@ import Nav from './components/Navbar/Nav';
 import CardDetail from './components/Product/CardDetail';
 import CardDesc from './components/Product/CardDesc';
 import Category from './page/Category'
-import CardProduct from './components/Product/CardProduct';
+
 
 function App() {
 
 
   return (
-    <>
 
+    <>
       <div className="p-8">
         <h1 className="text-3xl font-thin mb-4">All Category หมวดหมู่ทั้งหมด 0123456789 (Thin)</h1>
         <h1 className="text-3xl font-extralight mb-4">All Category หมวดหมู่ทั้งหมด 0123456789 (Extra Light)</h1>
@@ -27,6 +27,7 @@ function App() {
         <h1 className="text-3xl font-black mb-4">All Category หมวดหมู่ทั้งหมด 0123456789 (Black)</h1>
       </div>
     </>
+
   )
 }
 
