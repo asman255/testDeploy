@@ -1,19 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { FaHome } from "react-icons/fa";
-import NavMobile from './components/Navbar/NavMobile';
-import Nav from './components/Navbar/Nav';
-import CardDetail from './components/Product/CardDetail';
-import CardDesc from './components/Product/CardDesc';
 import Category from './page/Category'
+<<<<<<< HEAD
 import CardCart from './components/Product/CardCart';
 
+=======
+import Tag from "./components/Tag/Tag"
+>>>>>>> 9dd8a7b6c967edb3ea1d1ffb28c983d77684faa9
 function App() {
 
 
   return (
     <>
+<<<<<<< HEAD
       <div className='bg-ga-bg h-96 '>
         <Nav back title="GenAID" cart />
 
@@ -45,6 +44,12 @@ function App() {
 
 
       </div>
+=======
+    <div>
+      
+    </div>
+   <Tag />
+>>>>>>> 9dd8a7b6c967edb3ea1d1ffb28c983d77684faa9
     </>
   )
 }
