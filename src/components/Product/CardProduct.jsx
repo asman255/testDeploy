@@ -3,7 +3,7 @@ import { AiFillStar } from "react-icons/ai";
 
 const CardProduct = () => {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden w-72 mx-auto flex flex-col">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden w-72 mx-auto flex flex-col flex-shrink-0 snap-start">
       <img
         src="https://magasiner.familiprix.com/medias/000000000000664094-754000000014100000000062505594-fr-ecomm-zoom?context=bWFzdGVyfGltYWdlc3wyNDY0OTF8aW1hZ2UvcG5nfGFHVmpMMmczWlM4NU1EZ3lNRFUwTlRReE16UXlMekF3TURBd01EQXdNREF3TURZMk5EQTVORjgzTlRRd01EQXdNREF3TVRReE1EQXdNREF3TURBd05qSTFNRFUxT1RSZlpuSmZaV052YlcxZmVtOXZiUXw1OWY4NjhhMmNkMjRmNTg5MDk2M2NiMTExODY5MzczZjIzZTFkNWY1Mjc2ZDQzYmRiYTE3OTJmM2UzOTQ4OTYy"
         alt="TYLENOL (ไทลินอล)"
