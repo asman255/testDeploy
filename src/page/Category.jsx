@@ -18,6 +18,10 @@ const Category = () => {
         <CardCategry />
         <CardCategry />
         <CardCategry />
+        <CardCategry />
+        <CardCategry />
+        <CardCategry />
+        <CardCategry />
       </div>
       <NavMobile/>
       </div>

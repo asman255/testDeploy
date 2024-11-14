@@ -2,7 +2,7 @@ export default function card() {
   return (
     <>
  
-   <div className="h-40 w-[40%]  lg:w-auto relative max-w-xs overflow-hidden rounded-2xl shadow-lg group ml-2 m-1 ">
+   <div className="h-40 w-[40%]  lg:w-auto relative max-w-xs overflow-hidden rounded-2xl shadow-lg group ml-2 m-1 flex flex-col flex-shrink-0 snap-start ">
   <img
     src="src/assets/ImgsCategory/01householddrugs.jpg"
     alt=""
