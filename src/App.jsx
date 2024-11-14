@@ -4,17 +4,15 @@ import reactLogo from './assets/react.svg'
 import ProductDetail from './page/ProductDetail'
 import Category from './page/Category'
 function App() {
-
-
   return (
-
     <>
       {/* <OrderHistory /> */}
       {/* <ProductDetail /> */}
       <Category />
     </>
 
-  )
+    
+  );
 }
 
-export default App
+export default App;
