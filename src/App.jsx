@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       {/* <OrderHistory /> */}
-      {/* <ProductDetail /> */}
-      <Category />
+      <ProductDetail />
+      {/* <Category /> */}
     </>
 
     
