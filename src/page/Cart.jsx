@@ -20,7 +20,7 @@ const Cart = () => {
           </button>
         </div>
       </div>
-      <NavMobile />
+      <NavMobile checkout/>
     </>
   );
 };
