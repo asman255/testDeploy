@@ -1,14 +1,13 @@
-import Search from "./page/Search";
-import ProductDetail from "./page/ProductDetail";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import Home from './page/Home'
+import Category from './page/Category'
 
 
 function App() {
   return (
     <>
-      <div className="p-8">
-      </div>
-      <Search />
-
+    <Home />
     </>
   );
 }
