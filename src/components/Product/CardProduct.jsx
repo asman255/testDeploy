@@ -5,7 +5,7 @@ const CardProduct = () => {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden max-h-full max-w-[200px] flex-shrink-0 snap-start mx-2">
       <img
-        src="https://magasiner.familiprix.com/medias/000000000000664094-754000000014100000000062505594-fr-ecomm-zoom?context=bWFzdGVyfGltYWdlc3wyNDY0OTF8aW1hZ2UvcG5nfGFHVmpMMmczWlM4NU1EZ3lNRFUwTlRReE16UXlMekF3TURBd01EQXdNREF3TURZMk5EQTVORjgzTlRRd01EQXdNREF3TVRReE1EQXdNREF3TURBd05qSTFNRFUxT1RSZlpuSmZaV052YlcxZmVtOXZiUXw1OWY4NjhhMmNkMjRmNTg5MDk2M2NiMTExODY5MzczZjIzZTFkNWY1Mjc2ZDQzYmRiYTE3OTJmM2UzOTQ4OTYy"
+        src="https://cx.lnwfile.com/_/cx/_raw/xo/m0/lg.jpg"
         alt="TYLENOL (ไทลินอล)"
         className="w-full h-40 object-contain mb-0.5"  // Reduced height to h-32
       />
