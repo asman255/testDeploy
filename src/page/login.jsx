@@ -83,8 +83,11 @@ const Login = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen ">
-      <Nav back />
+    <>
+        <Nav back />
+
+
+    <div className="  flex flex-col items-center justify-center min-h-screen ">
       <section className="flex justify-center items-center mb-4">
         <img src={logo} alt="logo" className="w-[60%]" />
       </section>
@@ -107,8 +110,8 @@ const Login = () => {
             onChange={(e) => setEmail(e.target.value)}
             onFocus={() => setEmailTouched(true)}
             autoComplete="chrome-off"
-            className={`shadow appearance-none border  rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
-              emailError ? "border-red-500" : ""
+            className={`shadow appearance-none border  rounded w-full py-2 px-3 bg-gray-200 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+              emailError ? "border-orange-400" : ""
             }`}
           />
 
@@ -128,8 +131,8 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
             onFocus={() => setPasswordTouched(true)} // Set passwordTouched to true on focus
             autoComplete="new-password"
-            className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
-              passwordError ? "border-red-500" : ""
+            className={`shadow appearance-none border rounded w-full py-2 px-3 bg-gray-200 text-gray-700 leading-tight focus:outline-none focus:shadow-outline ${
+              passwordError ? "border-orange-400" : ""
             }`}
           />
           <div className="flex items-center mt-2 gap-28 ">
@@ -166,6 +169,7 @@ const Login = () => {
 
       <p className="m-4">Don't have an account ? Register Now</p>
     </div>
+    </>
   );
 };
 
